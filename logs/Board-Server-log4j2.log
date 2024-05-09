@@ -146,4 +146,19 @@
  -2024/05/09 15:47:42,930 [DEBUG] [org.springframework.core.log.LogFormatUtils] [http-nio-8080-exec-3]- Writing [com.fastcampus.boardserver.dto.response.CommonResponse@3318033e]
  -2024/05/09 15:47:42,931 [DEBUG] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-3]- Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
  -2024/05/09 15:47:42,931 [DEBUG] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-3]- Completed 200 OK
+ -2024/05/09 16:10:43,035 [DEBUG] [org.springframework.boot.availability.ApplicationAvailabilityBean] [SpringApplicationShutdownHook]- Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+ -2024/05/09 16:10:43,045 [DEBUG] [org.springframework.context.support.AbstractApplicationContext] [SpringApplicationShutdownHook]- Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6a1ebcff, started on Thu May 09 14:53:16 KST 2024
+ -2024/05/09 16:10:43,174 [DEBUG] [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] [SpringApplicationShutdownHook]- Stopping beans in phase 2147483647
+ -2024/05/09 16:10:43,186 [DEBUG] [org.springframework.context.support.DefaultLifecycleProcessor] [SpringApplicationShutdownHook]- Bean 'applicationTaskExecutor' completed its stop procedure
+ -2024/05/09 16:10:43,187 [DEBUG] [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] [SpringApplicationShutdownHook]- Stopping beans in phase 2147482623
+ -2024/05/09 16:10:43,211 [DEBUG] [org.springframework.context.support.DefaultLifecycleProcessor] [SpringApplicationShutdownHook]- Bean 'webServerGracefulShutdown' completed its stop procedure
+ -2024/05/09 16:10:43,211 [DEBUG] [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] [SpringApplicationShutdownHook]- Stopping beans in phase 2147481599
+ -2024/05/09 16:10:43,394 [DEBUG] [org.springframework.context.support.DefaultLifecycleProcessor] [SpringApplicationShutdownHook]- Bean 'webServerStartStop' completed its stop procedure
+ -2024/05/09 16:10:43,395 [DEBUG] [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] [SpringApplicationShutdownHook]- Stopping beans in phase 0
+ -2024/05/09 16:10:43,717 [DEBUG] [org.springframework.context.support.DefaultLifecycleProcessor] [SpringApplicationShutdownHook]- Bean 'redisConnectionFactory' completed its stop procedure
+ -2024/05/09 16:10:43,717 [DEBUG] [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] [SpringApplicationShutdownHook]- Stopping beans in phase -2147483647
+ -2024/05/09 16:10:43,722 [DEBUG] [org.springframework.context.support.DefaultLifecycleProcessor] [SpringApplicationShutdownHook]- Bean 'springBootLoggingLifecycle' completed its stop procedure
+ -2024/05/09 16:10:43,735 [DEBUG] [org.springframework.beans.factory.support.DisposableBeanAdapter] [SpringApplicationShutdownHook]- Custom destroy method 'shutdown' on bean with name 'lettuceClientResources' completed asynchronously
+ -2024/05/09 16:10:43,750 [DEBUG] [org.springframework.jmx.export.MBeanExporter] [SpringApplicationShutdownHook]- Unregistering JMX-exposed beans on shutdown
+ -2024/05/09 16:10:43,753 [DEBUG] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringApplicationShutdownHook]- Shutting down ExecutorService 'applicationTaskExecutor'
  -
