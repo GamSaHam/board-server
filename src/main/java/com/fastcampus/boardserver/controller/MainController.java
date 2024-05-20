@@ -11,4 +11,9 @@ public class MainController {
         return "메인입니다3.";
     }
 
+    @GetMapping("/v2")
+    public String getTest() {
+        return "test";
+    }
+
 }
